@@ -4,7 +4,7 @@
     </head>
     <body> 
         <?php
-        $conn = new mysql('localhost','root','123456','project101');
+        $conn = new mysql('localhost' , 'root' , '123456' , 'project101');
         if($conn->connection_error)  {
             die("connection failed: ".$conn->connect__error);
         
